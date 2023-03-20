@@ -28,7 +28,7 @@ struct MacOS_Scene: Scene {
 //        .windowToolbarStyle(.automatic)
 
 
-        MenuBarExtra(String(battery.temperature), systemImage: "\(1).circle", isInserted: $showMenuBarExtra) {
+        MenuBarExtra(String(battery.temperature), systemImage: "qrcode", isInserted: $showMenuBarExtra) {
                 MenuBarView()
                 
             
