@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct CarboApp: App {
+struct CarboApp: App {    
+
     var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+        MacOS_Scene()
+        
     }
+    
+    
 }

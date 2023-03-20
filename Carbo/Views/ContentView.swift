@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var store: MyStore
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        if store.selection == .home {
+            Text("Home")
+        } else if store.selection == .page{
+            Text("Page")
+        } else if store.selection == .detail {
+            Text("Detail")
         }
-        .padding()
     }
 }
 

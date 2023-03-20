@@ -8,18 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		DA10F93D28D960E8005C986A /* CarboApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F93C28D960E8005C986A /* CarboApp.swift */; };
-		DA10F93F28D960E8005C986A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F93E28D960E8005C986A /* ContentView.swift */; };
 		DA10F94128D960E8005C986A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA10F94028D960E8005C986A /* Assets.xcassets */; };
 		DA10F94428D960E8005C986A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA10F94328D960E8005C986A /* Preview Assets.xcassets */; };
+		DA10F94D28D9FEB2005C986A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F94C28D9FEB2005C986A /* HomeView.swift */; };
+		DA10F94F28D9FEF8005C986A /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F94E28D9FEF8005C986A /* ToolbarView.swift */; };
+		DA10F95128DA1616005C986A /* SlideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F95028DA1616005C986A /* SlideBarView.swift */; };
+		DA10F95328DA1627005C986A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F95228DA1627005C986A /* ContentView.swift */; };
+		DA10F95528DA1633005C986A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F95428DA1633005C986A /* DetailView.swift */; };
+		DA10F95928DB5699005C986A /* SlideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F95828DB5699005C986A /* SlideBar.swift */; };
+		DA10F95B28DB5BF4005C986A /* SlideBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F95A28DB5BF4005C986A /* SlideBarItemView.swift */; };
+		DA10F95E28DB7308005C986A /* MainGroupBoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F95D28DB7308005C986A /* MainGroupBoxStyle.swift */; };
+		DA9000D329275B400062E960 /* PanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9000D229275B400062E960 /* PanelView.swift */; };
+		DA9000D529275E1A0062E960 /* QrCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9000D429275E1A0062E960 /* QrCodeView.swift */; };
+		DAABF45F292BC0D4005CB936 /* PickerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAABF45E292BC0D4005CB936 /* PickerSettings.swift */; };
+		DAABF461292C6A53005CB936 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAABF460292C6A53005CB936 /* ColorPickerView.swift */; };
+		DAE67C5E2924CEF000287AE5 /* InternalBatteryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE67C5D2924CEF000287AE5 /* InternalBatteryStore.swift */; };
+		DAE67C602924D4DE00287AE5 /* InternalBattery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE67C5F2924D4DE00287AE5 /* InternalBattery.swift */; };
+		DAE67C622924D67C00287AE5 /* InternalBatteryFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE67C612924D67C00287AE5 /* InternalBatteryFinder.swift */; };
+		DAE67C662925CBF400287AE5 /* MacOS_Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE67C652925CBF400287AE5 /* MacOS_Scene.swift */; };
+		DAE67C682925D05A00287AE5 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE67C672925D05A00287AE5 /* MenuBarView.swift */; };
+		DAE67C6B2926255500287AE5 /* QrCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE67C6A2926255500287AE5 /* QrCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DA10F93928D960E8005C986A /* Carbo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carbo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA10F93C28D960E8005C986A /* CarboApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarboApp.swift; sourceTree = "<group>"; };
-		DA10F93E28D960E8005C986A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DA10F94028D960E8005C986A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA10F94328D960E8005C986A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DA10F94528D960E8005C986A /* Carbo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Carbo.entitlements; sourceTree = "<group>"; };
+		DA10F94C28D9FEB2005C986A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DA10F94E28D9FEF8005C986A /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
+		DA10F95028DA1616005C986A /* SlideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideBarView.swift; sourceTree = "<group>"; };
+		DA10F95228DA1627005C986A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA10F95428DA1633005C986A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		DA10F95828DB5699005C986A /* SlideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideBar.swift; sourceTree = "<group>"; };
+		DA10F95A28DB5BF4005C986A /* SlideBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideBarItemView.swift; sourceTree = "<group>"; };
+		DA10F95D28DB7308005C986A /* MainGroupBoxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGroupBoxStyle.swift; sourceTree = "<group>"; };
+		DA9000D229275B400062E960 /* PanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelView.swift; sourceTree = "<group>"; };
+		DA9000D429275E1A0062E960 /* QrCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeView.swift; sourceTree = "<group>"; };
+		DAABF45E292BC0D4005CB936 /* PickerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerSettings.swift; sourceTree = "<group>"; };
+		DAABF460292C6A53005CB936 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		DAE67C5D2924CEF000287AE5 /* InternalBatteryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalBatteryStore.swift; sourceTree = "<group>"; };
+		DAE67C5F2924D4DE00287AE5 /* InternalBattery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalBattery.swift; sourceTree = "<group>"; };
+		DAE67C612924D67C00287AE5 /* InternalBatteryFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalBatteryFinder.swift; sourceTree = "<group>"; };
+		DAE67C652925CBF400287AE5 /* MacOS_Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOS_Scene.swift; sourceTree = "<group>"; };
+		DAE67C672925D05A00287AE5 /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		DAE67C6A2926255500287AE5 /* QrCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +86,13 @@
 		DA10F93B28D960E8005C986A /* Carbo */ = {
 			isa = PBXGroup;
 			children = (
+				DAE67C692926254300287AE5 /* Utils */,
+				DAE67C642925CBD300287AE5 /* Scenes */,
+				DA10F95C28DB72EB005C986A /* Styles */,
+				DA10F95728DB5686005C986A /* Models */,
+				DA10F95628DB565B005C986A /* Navigations */,
+				DA10F94B28D9FE9F005C986A /* Views */,
 				DA10F93C28D960E8005C986A /* CarboApp.swift */,
-				DA10F93E28D960E8005C986A /* ContentView.swift */,
 				DA10F94028D960E8005C986A /* Assets.xcassets */,
 				DA10F94528D960E8005C986A /* Carbo.entitlements */,
 				DA10F94228D960E8005C986A /* Preview Content */,
@@ -67,6 +106,66 @@
 				DA10F94328D960E8005C986A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA10F94B28D9FE9F005C986A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA10F94C28D9FEB2005C986A /* HomeView.swift */,
+				DA10F94E28D9FEF8005C986A /* ToolbarView.swift */,
+				DA10F95228DA1627005C986A /* ContentView.swift */,
+				DA10F95428DA1633005C986A /* DetailView.swift */,
+				DAE67C672925D05A00287AE5 /* MenuBarView.swift */,
+				DA9000D229275B400062E960 /* PanelView.swift */,
+				DA9000D429275E1A0062E960 /* QrCodeView.swift */,
+				DAABF460292C6A53005CB936 /* ColorPickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DA10F95628DB565B005C986A /* Navigations */ = {
+			isa = PBXGroup;
+			children = (
+				DA10F95028DA1616005C986A /* SlideBarView.swift */,
+				DA10F95A28DB5BF4005C986A /* SlideBarItemView.swift */,
+			);
+			path = Navigations;
+			sourceTree = "<group>";
+		};
+		DA10F95728DB5686005C986A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA10F95828DB5699005C986A /* SlideBar.swift */,
+				DAE67C5D2924CEF000287AE5 /* InternalBatteryStore.swift */,
+				DAE67C5F2924D4DE00287AE5 /* InternalBattery.swift */,
+				DAE67C612924D67C00287AE5 /* InternalBatteryFinder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DA10F95C28DB72EB005C986A /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				DA10F95D28DB7308005C986A /* MainGroupBoxStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		DAE67C642925CBD300287AE5 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				DAE67C652925CBF400287AE5 /* MacOS_Scene.swift */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		DAE67C692926254300287AE5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DAE67C6A2926255500287AE5 /* QrCode.swift */,
+				DAABF45E292BC0D4005CB936 /* PickerSettings.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,7 +196,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1400;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					DA10F93828D960E8005C986A = {
 						CreatedOnToolsVersion = 14.0;
@@ -139,7 +238,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA10F93F28D960E8005C986A /* ContentView.swift in Sources */,
+				DAABF45F292BC0D4005CB936 /* PickerSettings.swift in Sources */,
+				DA10F95928DB5699005C986A /* SlideBar.swift in Sources */,
+				DAE67C602924D4DE00287AE5 /* InternalBattery.swift in Sources */,
+				DA10F95B28DB5BF4005C986A /* SlideBarItemView.swift in Sources */,
+				DAE67C6B2926255500287AE5 /* QrCode.swift in Sources */,
+				DA9000D529275E1A0062E960 /* QrCodeView.swift in Sources */,
+				DA10F94D28D9FEB2005C986A /* HomeView.swift in Sources */,
+				DA9000D329275B400062E960 /* PanelView.swift in Sources */,
+				DA10F95528DA1633005C986A /* DetailView.swift in Sources */,
+				DA10F95328DA1627005C986A /* ContentView.swift in Sources */,
+				DAABF461292C6A53005CB936 /* ColorPickerView.swift in Sources */,
+				DA10F94F28D9FEF8005C986A /* ToolbarView.swift in Sources */,
+				DAE67C5E2924CEF000287AE5 /* InternalBatteryStore.swift in Sources */,
+				DA10F95E28DB7308005C986A /* MainGroupBoxStyle.swift in Sources */,
+				DAE67C682925D05A00287AE5 /* MenuBarView.swift in Sources */,
+				DAE67C662925CBF400287AE5 /* MacOS_Scene.swift in Sources */,
+				DA10F95128DA1616005C986A /* SlideBarView.swift in Sources */,
+				DAE67C622924D67C00287AE5 /* InternalBatteryFinder.swift in Sources */,
 				DA10F93D28D960E8005C986A /* CarboApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,6 +296,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -197,7 +314,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -240,6 +357,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -251,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -266,19 +384,25 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Carbo/Carbo.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Carbo/Preview Content\"";
 				DEVELOPMENT_TEAM = 95764LMVLY;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.darkiiiiiice.mariomang.Carbo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -293,19 +417,25 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Carbo/Carbo.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Carbo/Preview Content\"";
 				DEVELOPMENT_TEAM = 95764LMVLY;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.darkiiiiiice.mariomang.Carbo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -324,7 +454,7 @@
 				DA10F94728D960E8005C986A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		DA10F94828D960E8005C986A /* Build configuration list for PBXNativeTarget "Carbo" */ = {
 			isa = XCConfigurationList;
@@ -333,7 +463,7 @@
 				DA10F94A28D960E8005C986A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
